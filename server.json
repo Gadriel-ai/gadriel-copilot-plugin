@@ -1,0 +1,41 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Gadriel-ai/gadriel",
+  "description": "AI Security Harness: scans code for vulnerabilities (SAST), secrets, dependency/CVE risk, container and config issues, and AI-specific risks (OWASP LLM Top 10). Runs locally.",
+  "title": "Gadriel AI Security Harness",
+  "websiteUrl": "https://gadriel.ai",
+  "repository": {
+    "url": "https://github.com/Gadriel-ai/gadriel-copilot-plugin",
+    "source": "github"
+  },
+  "version": "1.4.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "gadriel",
+      "version": "1.4.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "code"
+        },
+        {
+          "type": "positional",
+          "value": "mcp"
+        }
+      ],
+      "environmentVariables": [
+        {
+          "name": "GADRIEL_NO_ANONYMOUS_AUTH",
+          "description": "Set to 1 to skip anonymous device registration with app.gadriel.ai.",
+          "isRequired": false,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}
