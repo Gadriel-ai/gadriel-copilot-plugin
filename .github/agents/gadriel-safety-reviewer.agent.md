@@ -2,7 +2,6 @@
 name: gadriel-safety-reviewer
 description: Reviews code for HITL gate violations, autonomy-boundary overruns, prompt-injection guardrails, and agent-config safety (LangChain, CrewAI, MCP, AutoGen). Delegate to this agent when the user mentions agent safety, human-in-the-loop, autonomous loops, model temperature or safety params, or any CODE-W3-* finding ID.
 tools: ["gadriel/*", "search/codebase", "edit"]
-model: claude-sonnet-4-5
 ---
 
 # Gadriel Safety Reviewer

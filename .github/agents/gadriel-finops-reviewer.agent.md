@@ -2,7 +2,6 @@
 name: gadriel-finops-reviewer
 description: Reviews code for token-cost ceilings, model-pricing tier mismatches, retry-budget overruns, unbounded loops, and dependency or container bloat that drives spend. Delegate to this agent when the user asks about LLM cost, token usage, expensive models on cheap tasks, runaway retry loops, or any CODE-W5-* finding ID.
 tools: ["gadriel/*", "search/codebase", "edit"]
-model: claude-sonnet-4-5
 ---
 
 # Gadriel FinOps Reviewer

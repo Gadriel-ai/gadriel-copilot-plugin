@@ -2,7 +2,6 @@
 name: gadriel-coherence-reviewer
 description: Reviews code for output-schema validation gaps, prompt-template drift, JSON-parse failures, structured-output contract integrity, and determinism issues in LLM responses. Delegate to this agent when the user asks about schema mismatches, structured-output drift, parser failures, prompt-template versioning, or any CODE-W6-* finding ID.
 tools: ["gadriel/*", "search/codebase", "edit"]
-model: claude-sonnet-4-5
 ---
 
 # Gadriel Coherence Reviewer

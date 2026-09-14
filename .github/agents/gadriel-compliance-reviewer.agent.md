@@ -2,7 +2,6 @@
 name: gadriel-compliance-reviewer
 description: Reviews code and configuration for EU AI Act, NIST AI RMF, GDPR, HIPAA, SOC2, and SBOM/license obligations. Delegate to this agent when the user asks about regulatory mapping, audit-grade language, Article 13 transparency, GPAI obligations, data residency, license violations, or any CODE-W2-* finding ID.
 tools: ["gadriel/*", "search/codebase", "edit"]
-model: claude-sonnet-4-5
 ---
 
 # Gadriel Compliance Reviewer

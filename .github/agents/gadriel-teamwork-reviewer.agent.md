@@ -2,7 +2,6 @@
 name: gadriel-teamwork-reviewer
 description: Reviews code for agent-to-agent (A2A) contract gaps, deadlock patterns, missing ack timeouts, broken handoff protocols, and circular-wait risks in multi-agent systems. Delegate to this agent when the user asks about agent coordination, A2A protocols, deadlocks, handoff contracts, or any CODE-W7-* finding ID.
 tools: ["gadriel/*", "search/codebase", "edit"]
-model: claude-sonnet-4-5
 ---
 
 # Gadriel Teamwork Reviewer

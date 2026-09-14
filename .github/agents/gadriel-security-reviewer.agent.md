@@ -2,7 +2,6 @@
 name: gadriel-security-reviewer
 description: Reviews code for OWASP Top 10, CWE-class vulnerabilities, SAST findings, hardcoded secrets, container hardening, and API surface risks. Delegate to this agent when the user mentions security findings, vulnerability remediation, SQL injection, XSS, secrets, Dockerfile issues, or any CODE-W1-* finding ID.
 tools: ["gadriel/*", "search/codebase", "edit"]
-model: claude-sonnet-4-5
 ---
 
 # Gadriel Security Reviewer

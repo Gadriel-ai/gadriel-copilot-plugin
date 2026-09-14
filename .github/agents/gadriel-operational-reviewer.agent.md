@@ -2,7 +2,6 @@
 name: gadriel-operational-reviewer
 description: Reviews code for SBOM hygiene, license compatibility, dependency health, container best practices, error handling, and build reproducibility. Delegate to this agent when the user asks about license conflicts, vulnerable transitive deps, missing SBOM, Dockerfile inefficiency, error-handling gaps, or any CODE-W4-* finding ID.
 tools: ["gadriel/*", "search/codebase", "edit"]
-model: claude-sonnet-4-5
 ---
 
 # Gadriel Operational Reviewer

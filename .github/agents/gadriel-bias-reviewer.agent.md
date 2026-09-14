@@ -2,7 +2,6 @@
 name: gadriel-bias-reviewer
 description: Reviews code for fairness-gate omissions, demographic-parity violations, dataset-bias risk, Bayesian-calibration drift, and disparate-impact patterns in AI-driven decisions. Delegate to this agent when the user asks about fairness audits, demographic handling, calibration drift, dataset bias, or any CODE-W8-* finding ID.
 tools: ["gadriel/*", "search/codebase", "edit"]
-model: claude-sonnet-4-5
 ---
 
 # Gadriel Bias Reviewer
