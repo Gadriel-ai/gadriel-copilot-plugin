@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.Gadriel-ai/gadriel",
-  "description": "AI Security Harness: scans code for vulnerabilities (SAST), secrets, dependency/CVE risk, container and config issues, and AI-specific risks (OWASP LLM Top 10). Runs locally.",
+  "description": "AI Security Harness: SAST, secrets, deps, containers, config & OWASP LLM. Scans locally.",
   "title": "Gadriel AI Security Harness",
   "websiteUrl": "https://gadriel.ai",
   "repository": {
