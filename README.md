@@ -28,7 +28,7 @@ per-repo instead, drop this `.vscode/mcp.json` into your project (needs Node for
 `npx`, or `npm install -g gadriel`):
 
 ```json
-{ "servers": { "gadriel": { "type": "stdio", "command": "npx", "args": ["-y", "gadriel@1.5.0", "code", "mcp"] } } }
+{ "servers": { "gadriel": { "type": "stdio", "command": "npx", "args": ["-y", "gadriel@1.7.0", "code", "mcp"] } } }
 ```
 
 **Add the Copilot guidance (optional).** Copy the `.github/` directory into your
